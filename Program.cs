@@ -17,14 +17,14 @@ namespace WriteAmerican
         }
 
 
-        static void DisplaySum(int num01, int num02) // This is the method definition
+        static void DisplaySum() // This is the method definition
         {
             // Problem 1 WriteAverage
-            Double numb01 = 2.0;
-            Double numb02 = 7;
+            Double num01 = 2.0;
+            Double num02 = 7;
 
 
-            Console.WriteLine("{0} + {1} / 2 = {2}", (numb01 + numb02) / 2);  /// this method works!!
+            Console.WriteLine("{0} + {1} / 2 = {2}", (num01 + num02) / 2);  /// this method works!!
         }
 
 
@@ -38,7 +38,11 @@ namespace WriteAmerican
             int date = (18);          // int day = to the 18th
 
             Console.WriteLine(day + " " + month + " ", date + ',' + " " + year);
-
-        }
+        }             
     }
 }
+
+
+
+
+
