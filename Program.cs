@@ -22,13 +22,11 @@ namespace WriteAmerican
             // Problem 1 WriteAverage
             Double num01 = 2.0;
             Double num02 = 7;
-
-
             Console.WriteLine("{0} + {1} / 2 = {2}", (num01 + num02) / 2);  /// this method works!!
         }
 
 
-        static void DisplayWriteEurope()
+        static void DisplayWriteEurope() //test is a parameter
         {
 
             // Problems 2,3 WriteEuropen and Problems 4,5 WriteAmerican
